@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>応募ありがとうございます | 有限会社恵比寿</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-sans bg-gradient-to-br from-red-50 to-orange-50">
+    <div class="min-h-screen flex items-center justify-center px-4 py-12">
+        <div class="max-w-2xl w-full bg-white rounded-2xl shadow-2xl p-8 md:p-12 text-center">
+            <!-- 成功アイコン -->
+            <div class="mb-8">
+                <div class="w-24 h-24 bg-gradient-to-br from-green-400 to-green-600 rounded-full flex items-center justify-center mx-auto animate-bounce">
+                    <i class="fas fa-check text-white text-5xl"></i>
+                </div>
+            </div>
+
+            <!-- メインメッセージ -->
+            <h1 class="text-3xl md:text-4xl font-black text-gray-800 mb-6">
+                ご応募ありがとうございます！
+            </h1>
+            
+            <p class="text-lg text-gray-700 mb-8 leading-relaxed">
+                応募フォームの送信が完了しました。<br>
+                担当者がご入力内容を確認の上、<br class="md:hidden">
+                <span class="font-bold text-red-600">3営業日以内</span>にご連絡いたします。
+            </p>
+
+            <!-- 次のステップ -->
+            <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 mb-8 text-left">
+                <h2 class="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                    <i class="fas fa-clipboard-list text-blue-600 mr-3"></i>
+                    今後の流れ
+                </h2>
+                <ol class="space-y-3 text-gray-700">
+                    <li class="flex items-start">
+                        <span class="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-3 mt-0.5 text-sm font-bold">1</span>
+                        <span>担当者からメールまたはお電話にてご連絡</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-3 mt-0.5 text-sm font-bold">2</span>
+                        <span>面接日程の調整</span>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center flex-shrink-0 mr-3 mt-0.5 text-sm font-bold">3</span>
+                        <span>面接・店舗見学</span>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- 注意事項 -->
+            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8 text-left">
+                <p class="text-sm text-gray-700">
+                    <i class="fas fa-exclamation-triangle text-yellow-600 mr-2"></i>
+                    <strong>メールが届かない場合</strong><br>
+                    迷惑メールフォルダをご確認いただくか、<br>
+                    数日経っても連絡がない場合はお手数ですが再度ご応募ください。
+                </p>
+            </div>
+
+            <!-- ボタン -->
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="index.html" class="btn-primary inline-block">
+                    <i class="fas fa-home mr-2"></i>トップページに戻る
+                </a>
+                <a href="https://localplace.jp/sp/t200545059/index.html" target="_blank" class="inline-block bg-gray-600 text-white py-3 px-6 rounded-full font-bold hover:bg-gray-700 transition">
+                    <i class="fas fa-external-link-alt mr-2"></i>会社情報を見る
+                </a>
+            </div>
+
+            <!-- フッター -->
+            <div class="mt-12 pt-8 border-t border-gray-200">
+                <p class="text-gray-500 text-sm">
+                    <i class="fas fa-utensils text-red-600 mr-2"></i>
+                    有限会社恵比寿 採用担当
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        .animate-bounce {
+            animation: bounce 2s infinite;
+        }
+    </style>
+</body>
+</html>
